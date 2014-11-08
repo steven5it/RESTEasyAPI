@@ -1,0 +1,8 @@
+
+<Context>
+	<Environment name="tt" value="this is a string" type="java.lang.String"></Environment>
+	<Resource name="jdbc/openstack_projects" auth="Container"
+		type="javax.sql.DataSource" username="user" password="userpw"
+		driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/openstack_projects"
+		maxActive="15" maxIdle="3" />
+</Context>
